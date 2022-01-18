@@ -8016,7 +8016,7 @@ section[name="Products"] {
   /* background: url(...); */
 
 }
-.cards-content h1{
+.product-name {
   position: absolute;
   max-width: 300px;
   font-weight: normal;
@@ -8024,8 +8024,8 @@ section[name="Products"] {
   line-height: 39px;
   text-align: left;
   color: #2d2d42;
-  margin-top: 255px;
-  margin-left: 20px;
+  margin-top: 4px;
+  margin-left: 15px;
 }
 .weight{
   position: absolute;
@@ -8034,7 +8034,7 @@ section[name="Products"] {
   line-height: 27px;
   text-align: left;
   color: #6b6b6e;
-  margin-top: 305px;
+  margin-top: 55px;
   margin-left: 20px;
 }
 .price{
@@ -8045,7 +8045,7 @@ section[name="Products"] {
   line-height: 53px;
   text-align: left;
   color: #2d2d42;
-  margin-top: 350px;
+  margin-top: 90px;
   margin-left: 20px;
 }
 
