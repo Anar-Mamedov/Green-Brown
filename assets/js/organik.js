@@ -279,21 +279,67 @@
     $(e.target).prev().find("i:last-child").toggleClass("fa-plus fa-minus");
   });
 
+  $('input.number-of-product').on('input', function(e) {
+    this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1')
+
+    const value = parseInt(this.value)
+
+    const max = parseInt($('.number-of-product').attr('max'))
+    const min = parseInt($('.number-of-product').attr('min'))
+
+    const btnSub = $(this).closest('.product-cards').find('.sub')
+    const btnAdd = $(this).closest('.product-cards').find('.add')
+
+    if (value < min) {
+      btnSub.attr('disabled', 'disabled')
+      btnAdd.removeAttr('disabled')
+
+      this.value = min
+    }
+    else if (value > max) {
+      btnAdd.attr('disabled', 'disabled')
+      btnSub.removeAttr('disabled')
+
+      this.value = max
+    }
+    else {
+      btnSub.removeAttr('disabled')
+      btnAdd.removeAttr('disabled')
+    }
+  })
+
   $(".add").on("click", function () {
-    if ($(this).prev().val() < 999) {
-      $(this)
-        .prev()
-        .val(+$(this).prev().val() + 1);
+    const prevValue = parseInt($('.number-of-product').val())
+    const nextValue = prevValue + 1
+
+    const max = parseInt($('.number-of-product').attr('max'))
+    const closestNumberOfProducts = $(this).closest('.product-cards').find('.number-of-product')
+
+    if (prevValue >= max) {
+      $('.number-of-product').val(999)
+      $(this).attr('disabled', 'disabled')
     }
+    else closestNumberOfProducts.val(nextValue)
+
+    $(this).closest('.product-cards').find('.sub').removeAttr('disabled')
   });
+
   $(".sub").on("click", function () {
-    if ($(this).next().val() > 1) {
-      if ($(this).next().val() > 1)
-        $(this)
-          .next()
-          .val(+$(this).next().val() - 1);
+    const prevValue = parseInt($('.number-of-product').val())
+    const nextValue = prevValue - 1
+
+    const min = parseInt($('.number-of-product').attr('min'))
+    const closestNumberOfProducts = $(this).closest('.product-cards').find('.number-of-product')
+
+    if (prevValue <= min) {
+      closestNumberOfProducts.val(1)
+      $(this).attr('disabled', 'disabled')
     }
+    else closestNumberOfProducts.val(nextValue)
+
+    $(this).closest('.product-cards').find('.add').removeAttr('disabled')
   });
+
 
   if ($(".tabs-box").length) {
     $(".tabs-box .tab-buttons .tab-btn").on("click", function (e) {
