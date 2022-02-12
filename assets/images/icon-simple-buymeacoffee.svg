@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.597" height="38.085" viewBox="0 0 31.597 38.085">
+  <defs>
+    <filter id="Icon_simple-buymeacoffee" x="0" y="0" width="31.597" height="38.085" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_simple-buymeacoffee)">
+    <path id="Icon_simple-buymeacoffee-2" data-name="Icon simple-buymeacoffee" d="M8.344,0,7.326,2.342H5.815V4.454H6.4L6.987,8.2H6.062l1.222,6.887.785-.008.788,5h7.463l.052-.335.736-4.67.743.008L19.074,8.2H18.19l.59-3.747h.633V2.343H17.808L16.789,0Zm.442.674h7.568L17,2.163H8.138Zm-2.3,2.341H18.739v.77H6.484Zm.379,5.856H18.274l-.984,5.54-4.727-.05-4.717.05Z" transform="translate(3.18 6)" fill="#153b2e"/>
+  </g>
+</svg>
