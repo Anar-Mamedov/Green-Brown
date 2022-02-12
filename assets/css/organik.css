@@ -8154,6 +8154,36 @@ section[name="footer"] {
 .card_slider .item{
   text-align: -webkit-center;
 }
+.share_button{
+  width: 14.05px;
+  height: 17.56px;
+  background: transparent;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.bell-ring{
+  width: 17.8px;
+  height: 19.78px;
+  background: transparent;
+  float: right;
+  margin-top: 50px;
+  margin-right: -15px;
+}
+.star_icon{
+  width: 30.48px;
+  height: 28.31px;
+  float: right;
+  margin-top: 85px;
+  margin-right: -24px;
+}
+.star_icon p{
+  position: absolute;
+  margin-top: -26px;
+  font-size: 10px;
+  margin-left: 8px;
+  color: white;
+}
 
 /* footer */
 
