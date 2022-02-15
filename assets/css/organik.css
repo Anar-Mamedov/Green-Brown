@@ -7890,11 +7890,28 @@ section[name="Search"] {
 }
 
 section[name="category"] {
-  margin-bottom: 400px;
+  margin-bottom: 250px;
   /* xususi marginleri burda ver */
 }
 
 section[name="Products"] {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  /* xususi marginleri burda ver */
+}
+
+section[name="bestseller"] {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  /* xususi marginleri burda ver */
+}
+section[name="find_your_coffee"] {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  /* xususi marginleri burda ver */
+}
+section[name="new_product"] {
+  margin-top: 500px !important;
   margin: 0 auto;
   margin-bottom: 60px;
   /* xususi marginleri burda ver */
@@ -8002,6 +8019,37 @@ section[name="footer"] {
   line-height: 1.3;
   margin-top: 5px;
 }
+
+/* kategori slayder nav  */
+
+.category-slayder .owl-nav{
+  position: relative;
+  float: right;
+  margin-top: -277px !important;
+}
+
+.category-slayder .owl-nav .owl-next{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+
+}
+.category-slayder .owl-nav .owl-prev{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+}
+.category-slayder .owl-nav .owl-prev i{
+  text-align: center !important;
+  color: white !important;
+}
+.category-slayder .owl-nav .owl-next i{
+  color: white !important;
+}
+
+/* Kategory slayder nav son  */
 
 /* kategoriler son */
 
@@ -8184,6 +8232,367 @@ section[name="footer"] {
   margin-left: 8px;
   color: white;
 }
+.bestseller_bg{
+  margin-left: 3%;
+  width: 94%;
+  height: 675px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+/* owl carousel okları düzenleme */
+
+.card_slider .owl-nav {
+  margin-top: -220px !important;
+}
+.card_slider .owl-nav .owl-next{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative;
+  float: right;
+  right: -50px;
+}
+.card_slider .owl-nav .owl-prev{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  float: left !important;
+  left: -50px;
+}
+.card_slider .owl-nav .owl-prev i{
+  color: white !important;
+}
+.card_slider .owl-nav .owl-next i{
+  color: white !important;
+}
+/* owl carousel okları düzenleme son */
+
+.bestsaler_header{
+  position: relative;
+  float: left !important;
+  top: 70px;
+  left: 7%;
+}
+.background_logo{
+  position: absolute !important;
+  left: 5% !important;
+  margin-top: 515px !important;
+}
+
+/* yeni ürün kart kısmı son */
+
+/* Test kısmı */
+.test_area{
+  position: absolute;
+  right: 10%;
+  content: "";
+  border-radius: 70px 70px 0 0 / 70px 70px 0 0;
+  width: 69%;
+  height: 366.01px; 
+  background: transparent;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.2));
+}
+#triangle-bottomright {
+  position: absolute;
+  right: 0;
+  float: right;
+  margin-top: 0px;
+  width: 96%;
+  height: 0;
+  border-radius: 0 70px 0 0;
+  border-bottom: 100px solid #f15f38;
+  border-left: 1182.91px solid transparent;
+}
+#triangle-bottomright-under{
+  position: absolute;
+  border-radius: 70px 0 0 0;
+  margin-top: 99px;
+  width: 100%;
+  height: 267px;
+  background: #f15f38;
+}
+.half_circle {
+  position: relative;
+  margin-right: 188px;
+  margin-top: 21px;
+  z-index: 1;
+  float: right;
+  height: 134px;
+  width: 268px;
+  background: #E4451C;
+  display: inline-block;
+  border-bottom-left-radius: 268px;
+  border-bottom-right-radius: 268px;
+  transform: rotate(355deg);
+}
+.test_product{
+  margin-left: -61px;
+  margin-top: -91px;
+  position: absolute;
+  width: 400px;
+  max-inline-size: none;
+}
+.test_header{
+  margin-top: 81px;
+  margin-left: 30px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: left;
+  color: #fff;
+
+}
+.test_text{
+  margin-left: 30px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: #fff;
+
+}
+
+
+/* Test kısmı son */
+
+/* Yeni Ürüner kategorisi */
+
+.card-of-product-2{
+  width: 262px;
+  height: 381px;
+  border-radius: 28px;
+  background: #1A4340;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.product-picture{
+  object-fit: cover;
+  max-width: 100%;
+  height: 211px;
+  border-radius: 28px 28px 0px 0px;
+}
+
+.product-weight-1{
+  width: 60px;
+  height: 58px;
+  border-radius: 28px 0px 38px 0px;
+  background: #ffffff;
+  float: left;
+}
+.product-weight-1 p{
+  display: inline-flex;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 14px;
+  /* margin-left: 10px; */
+  color: #45726E;
+}
+
+.product_name-2{
+  font-weight: lighter;
+  /* font-family: Poppins; */
+  /* font-weight: 600; */
+  font-size: 20px;
+  /* line-height: 39px; */
+  text-align: left;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.text_of_product-2{
+  margin-top: -34px;
+  width: 239px;
+  height: 28px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 9px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-left: -1px;
+  line-height: 1.3;
+}
+.coffee_cup{
+  display: flex;
+  gap: 0px;
+  /* width: 32px; */
+}
+
+.coffee_cup >img{
+  margin-right: -7px;
+  width: 31px !important;
+}
+.coffee_cup >img:last-child{
+  opacity: 40%;
+}
+.discound_shape{
+  margin-left: 191px;
+  margin-top: -36px;
+  width: 71px;
+  height: 27px;
+}
+.discount_rate-2{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #45726E;
+  text-align: center;
+}
+.card_text_area{
+  margin-top: -14px;
+}
+.card_price{
+  display: inline-block;
+  margin: 10px 1px 1px 10px;
+  font-size: 20px;
+  float: left;
+}
+.card_price sup{
+  top: 1px;
+}
+.card_price sup::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 3px solid;
+  border-color: red;
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+.favorite_icon-2{
+  width: 31px;
+  height: 31px;
+  background: #ffffff;
+  border-radius: 50%;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.favorite_icon-2 img{
+  /* margin-left: 6px; */
+  margin-top: 7px;
+  width: 20px !important;
+}
+.shop_icon-2{
+  float: right;
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.shop_icon-2 img{
+  /* margin-left: 11px; */
+  margin-top: 9px;
+  width: 20px !important;
+}
+.shop_icon-2:hover{
+  background-color: #432222;
+}
+.card_slider .owl-stage-outer{
+  height: 400px !important;
+}
+.card_slider .item{
+  text-align: -webkit-center;
+}
+.share_button{
+  width: 14.05px;
+  height: 17.56px;
+  background: transparent;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.bell-ring{
+  width: 17.8px;
+  height: 19.78px;
+  background: transparent;
+  float: right;
+  margin-top: 50px;
+  margin-right: -15px;
+}
+.star_icon{
+  width: 30.48px;
+  height: 28.31px;
+  float: right;
+  margin-top: 85px;
+  margin-right: -24px;
+}
+.star_icon p{
+  position: absolute;
+  margin-top: -26px;
+  font-size: 10px;
+  margin-left: 8px;
+  color: white;
+}
+.new_product_bg{
+  margin-left: 3%;
+  width: 94%;
+  height: 675px;
+  border-radius: 50px;
+  background: #E2F2E5;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+/* owl carousel okları düzenleme */
+
+.card_slider .owl-nav {
+  margin-top: -220px !important;
+}
+.card_slider .owl-nav .owl-next{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative;
+  float: right;
+  right: -50px;
+}
+.card_slider .owl-nav .owl-prev{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  float: left !important;
+  left: -50px;
+}
+.card_slider .owl-nav .owl-prev i{
+  color: white !important;
+}
+.card_slider .owl-nav .owl-next i{
+  color: white !important;
+}
+/* owl carousel okları düzenleme son */
+
+.bestsaler_header{
+  position: relative;
+  float: left !important;
+  top: 70px;
+  left: 7%;
+}
+.background_logo{
+  position: absolute !important;
+  left: 5% !important;
+  margin-top: 515px !important;
+}
+
+
+/* Yeni ürünler kategorisi son */
+
 
 /* footer */
 
@@ -8295,5 +8704,5 @@ body .footer .content > div .image {
 
 /* tüm sayfa */
 body {
-  background-color: #ececec;
+  background-color: #f0f0f0 !important;
 }

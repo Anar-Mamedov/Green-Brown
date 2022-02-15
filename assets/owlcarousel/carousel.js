@@ -25,11 +25,12 @@ $(function (){
         smartSpeed: 1000,
         responsive:{
         0:{items:1},
-        600:{items:3},
-        900:{items:4},
-        1000:{items:5},
-        1200:{items:5},
-        1500:{items:5},
+        670:{items:1},
+        900:{items:2},
+        1020:{items:2},
+        1200:{items:3},
+        1400:{items:4},
+        1700:{items:5},
     }
     });
 });
