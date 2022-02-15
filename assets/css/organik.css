@@ -267,7 +267,7 @@
   margin-bottom: 45px;
 }
 
-@media (max-width: 575px) {
+ (max-width: 5@media75px) {
   .video-card .container h3 {
     font-size: 40px;
   }
@@ -8539,6 +8539,7 @@ section[name="footer"] {
   color: white;
 }
 .new_product_bg{
+  position: absolute;
   margin-left: 3%;
   width: 94%;
   height: 675px;
@@ -8584,10 +8585,16 @@ section[name="footer"] {
   top: 70px;
   left: 7%;
 }
-.background_logo{
+
+.background_logo-1 img{
   position: absolute !important;
-  left: 5% !important;
-  margin-top: 515px !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+@media (max-width: 607px) {
+  .background_logo-1 img {
+    margin-top: 297px;
+  }
 }
 
 
