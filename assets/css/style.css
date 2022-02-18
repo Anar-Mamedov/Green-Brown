@@ -1,0 +1,267 @@
+.jazz_main {
+  position: absolute;
+  width: 517px;
+  height: 350px;
+}
+
+.jazz_main img {
+  position: absolute;
+  width: 341px;
+  height: 342px;
+  top: 5px;
+  right: -90px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.jazz_photo {
+  position: absolute;
+  left: 0;
+  width: 364px;
+  height: 350px;
+  z-index: 2;
+  background: url(/assets/images/jazz.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.jazz_photo div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 364px;
+  height: 350px;
+  border-radius: 12px;
+  background: #000fb588;
+}
+
+.jazz_photo div div {
+  position: absolute;
+  width: 325px;
+  height: 133px;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.jazz_photo div div h1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+}
+
+.jazz_photo div div p {
+  position: absolute;
+  top: 59px;
+  left: 5px;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.classic_main {
+  position: absolute;
+  width: 517px;
+  height: 350px;
+}
+
+.classic_main img {
+  position: absolute;
+  width: 341px;
+  height: 342px;
+  top: 5px;
+  right: -90px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.classic_photo {
+  position: absolute;
+  left: 0;
+  width: 364px;
+  height: 350px;
+  z-index: 2;
+  background: url(/assets/images/classic.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.classic_photo div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 364px;
+  height: 350px;
+  border-radius: 12px;
+  background: #00b53688;
+}
+
+.classic_photo div div {
+  position: absolute;
+  width: 325px;
+  height: 133px;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.classic_photo div div h1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+}
+
+.classic_photo div div p {
+  position: absolute;
+  top: 59px;
+  left: 5px;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.music_slider .item {
+  height: 360px;
+}
+
+.rock_main {
+  position: absolute;
+  width: 517px;
+  height: 350px;
+}
+
+.rock_main img {
+  position: absolute;
+  width: 341px;
+  height: 342px;
+  top: 5px;
+  right: -90px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.rock_photo {
+  position: absolute;
+  left: 0;
+  width: 364px;
+  height: 350px;
+  z-index: 2;
+  background: url(/assets/images/rock.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.rock_photo div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 364px;
+  height: 350px;
+  border-radius: 12px;
+  background: #b5000088;
+}
+
+.rock_photo div div {
+  position: absolute;
+  width: 325px;
+  height: 133px;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.rock_photo div div h1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+}
+
+.rock_photo div div p {
+  position: absolute;
+  top: 59px;
+  left: 5px;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+
+.rotate {
+  -webkit-animation: 2s linear infinite rotate;
+          animation: 2s linear infinite rotate;
+  position: relative;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.music_area_size {
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  height: 400px;
+}
+
+.music_area_size .item {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.music_header {
+  margin-left: 7%;
+  margin-bottom: 20px;
+  font-family: Poppins !important;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.blog_bg {
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  height: 945px;
+  border-radius: 0px 0px 90px 0px;
+  background: #007a58;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+/*# sourceMappingURL=style.css.map */

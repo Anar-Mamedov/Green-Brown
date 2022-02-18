@@ -1,0 +1,261 @@
+// müzik bölümü
+//  jazz item
+.jazz_main {
+    position: absolute;
+    width: 517px;
+    height: 350px;
+
+    img {
+        position: absolute;
+        width: 341px;
+        height: 342px;
+        top: 5px;
+        right: -90px;
+        transform-origin: center;
+    }
+}
+.jazz_photo{
+    position: absolute;
+    left: 0;
+    width: 364px;
+    height: 350px;
+    z-index: 2;
+    background: url(/assets/images/jazz.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    div{
+        display: grid;
+        place-items: center;
+        width: 364px;
+        height: 350px;
+        border-radius: 12px;
+        background: #000fb588;
+
+        div{
+            position: absolute;
+            // top: 105px;
+            // left: 13px;
+            width: 325px;
+            height: 133px;
+            background: rgba(0, 0, 0, 0.28);
+
+            h1{
+                position: absolute;
+                top: 0;
+                left: 5px;
+                font-weight: 300;
+                font-size: 25px;
+                color: #fff;
+                
+            }
+            p{
+                position: absolute;
+                top: 59px;
+                left: 5px;
+                font-family: Poppins;
+                font-weight: 300;
+                font-size: 16px;
+                text-align: left;
+                color: #fff;
+
+            }
+        }
+    }
+}
+//  jazz item son
+
+// classic coffee item
+
+.classic_main {
+    position: absolute;
+    width: 517px;
+    height: 350px;
+
+    img {
+        position: absolute;
+        width: 341px;
+        height: 342px;
+        top: 5px;
+        right: -90px;
+        transform-origin: center;
+    }
+}
+.classic_photo{
+    position: absolute;
+    left: 0;
+    width: 364px;
+    height: 350px;
+    z-index: 2;
+    background: url(/assets/images/classic.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    div{
+        display: grid;
+        place-items: center;
+        width: 364px;
+        height: 350px;
+        border-radius: 12px;
+        background: #00b53688;
+
+        div{
+            position: absolute;
+            // top: 105px;
+            // left: 13px;
+            width: 325px;
+            height: 133px;
+            background: rgba(0, 0, 0, 0.28);
+
+            h1{
+                position: absolute;
+                top: 0;
+                left: 5px;
+                font-weight: 300;
+                font-size: 25px;
+                color: #fff;
+                
+            }
+            p{
+                position: absolute;
+                top: 59px;
+                left: 5px;
+                font-family: Poppins;
+                font-weight: 300;
+                font-size: 16px;
+                text-align: left;
+                color: #fff;
+
+            }
+        }
+    }
+}
+
+// classic coffee item son
+
+.music_slider{
+    .item{
+        height: 360px;
+    }
+}
+
+// Rock coffee card
+
+.rock_main {
+    position: absolute;
+    width: 517px;
+    height: 350px;
+
+    img {
+        position: absolute;
+        width: 341px;
+        height: 342px;
+        top: 5px;
+        right: -90px;
+        transform-origin: center;
+    }
+}
+.rock_photo{
+    position: absolute;
+    left: 0;
+    width: 364px;
+    height: 350px;
+    z-index: 2;
+    background: url(/assets/images/rock.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+    div{
+        display: grid;
+        place-items: center;
+        width: 364px;
+        height: 350px;
+        border-radius: 12px;
+        background: #b5000088;
+
+        div{
+            position: absolute;
+            // top: 105px;
+            // left: 13px;
+            width: 325px;
+            height: 133px;
+            background: rgba(0, 0, 0, 0.28);
+
+            h1{
+                position: absolute;
+                top: 0;
+                left: 5px;
+                font-weight: 300;
+                font-size: 25px;
+                color: #fff;
+                
+            }
+            p{
+                position: absolute;
+                top: 59px;
+                left: 5px;
+                font-family: Poppins;
+                font-weight: 300;
+                font-size: 16px;
+                text-align: left;
+                color: #fff;
+
+            }
+        }
+    }
+}
+
+// Rock coffee card
+
+.rotate {
+    animation: 2s linear infinite rotate;
+    position: relative;
+    // top: $size * -1;
+    transform-origin: 50% 100%;
+}
+
+@keyframes rotate {
+    from {
+    transform: rotate(0deg)
+    }
+    to {
+    transform: rotate(360deg)
+    }
+}
+
+.music_area_size{
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: 400px;
+    .item{
+    display: grid;
+    place-items: center;
+    }
+    
+}
+.music_header{
+    margin-left: 7%;
+    margin-bottom: 20px;
+    font-family: Poppins !important;
+    font-weight: bold;
+    font-size: 27px;
+};
+// müzik bölümü son
+
+.blog_bg{
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: 945px;
+    border-radius: 0px 0px 90px 0px;
+    background: #007a58;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}

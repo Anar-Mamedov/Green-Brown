@@ -7886,7 +7886,7 @@ section[name="Menu"] {
 }
 
 section[name="Search"] {
-  margin-bottom: 30px
+  /* margin-bottom: 30px */
 }
 
 section[name="category"] {
@@ -7913,15 +7913,30 @@ section[name="find_your_coffee"] {
 section[name="new_product"] {
   margin-top: 500px !important;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 1230px;
   /* xususi marginleri burda ver */
 }
 
+section[name="card_section"] {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  /* xususi marginleri burda ver */
+}
+section[name="music_area"] {
+  margin-top: 1898px !important;
+  margin: 0 auto;
+  margin-bottom: 2394px;
+  /* xususi marginleri burda ver */
+}
+section[name="blog_area"] {
+  margin-bottom: 60px;
+}
 section[name="footer"] {
   margin: 0 auto;
   margin-top: 140px;
   /* xususi marginleri burda ver */
 }
+
 
 
 /* kayan araba bandı */
@@ -8597,9 +8612,96 @@ section[name="footer"] {
   }
 }
 
-
 /* Yeni ürünler kategorisi son */
 
+
+/* green brown card bölümü */
+
+.card_section_bg{
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  height: 579px;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+}
+.card_section_slider{
+  margin-top: 180px;
+ }
+.card_section_slider .item{
+ height: 338px;
+}
+.card_1{
+  width: 649px;
+  height: 326px !important;
+  border-radius: 12px;
+  /* background: url(...); */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card_size{
+  text-align: -webkit-center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+/* owl carousel okları düzenleme */
+
+.card_section_slider .owl-nav {
+  margin-top: -209px !important;
+}
+.card_section_slider .owl-nav .owl-next{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative;
+  float: right;
+  right: -50px;
+}
+.card_section_slider .owl-nav .owl-prev{
+  background: #45726e !important;
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  float: left !important;
+  left: -50px;
+}
+.card_section_slider .owl-nav .owl-prev i{
+  color: white !important;
+}
+.card_section_slider .owl-nav .owl-next i{
+  color: white !important;
+}
+/* owl carousel okları düzenleme son */
+
+.card_header img{
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  font-family: Poppins !important;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: left;
+  color: #585955;
+}
+.card_section_bg img{
+  position: absolute !important;
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+/* green brown card bölümü sonu */
+
+/* slayder sol üstde menü butonunu gizleme */
+
+#slider-1191-slide-980-layer-13{
+  display: none;
+}
 
 /* footer */
 

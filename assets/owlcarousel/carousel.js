@@ -33,4 +33,34 @@ $(function (){
         1700:{items:5},
     }
     });
+    $('.music_slider').owlCarousel({
+        nav: true,
+        navText: [previcon, nexticon],
+        dots: false,
+        margin: 5,
+        smartSpeed: 1000,
+        responsive:{
+        0:{items:1},
+        670:{items:1},
+        900:{items:2},
+        1020:{items:2},
+        1200:{items:3},
+        1400:{items:3},
+        1700:{items:3},
+    }
+    });
+    $('.card_section_slider').owlCarousel({
+        nav: true,
+        navText: [previcon, nexticon],
+        dots: false,
+        margin: 5,
+        smartSpeed: 1000,
+        responsive:{
+        0:{items:1},
+        670:{items:1},
+        900:{items:1},
+        1730:{items:2},
+        
+    }
+    });
 });
