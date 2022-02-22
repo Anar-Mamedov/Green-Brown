@@ -1289,7 +1289,7 @@
 :root {
   --thm-font: "Poppins", sans-serif;
   --heading-font: "Poppins", sans-serif;
-  --special-font: "Abril Fatface", cursive;
+  --special-font: "Poppins", sans-serif;
   --thm-color: #717573;
   --thm-color-rgb: 113, 117, 115;
   --thm-base: #60be74;
@@ -1550,7 +1550,7 @@ h6 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  font-family: "azino-icon";
+  font-family: "Poppins";
 }
 
 .preloader {
@@ -7923,14 +7923,21 @@ section[name="card_section"] {
   /* xususi marginleri burda ver */
 }
 section[name="music_area"] {
-  margin-top: 1898px !important;
+  margin-top: 1857px !important;
   margin: 0 auto;
-  margin-bottom: 2394px;
+  margin-bottom: 322px;
   /* xususi marginleri burda ver */
 }
 section[name="blog_area"] {
   margin-bottom: 60px;
 }
+
+section[name="youtube"] {
+  height: 316px;
+  margin-top: 1097px;
+  margin-bottom: 104px;
+}
+
 section[name="footer"] {
   margin: 0 auto;
   margin-top: 140px;
@@ -8095,7 +8102,7 @@ section[name="footer"] {
 }
 .product-weight p{
   display: inline-flex;
-  font-family: "Helvetica Neue";
+  font-family: "poppins";
   font-weight: 500;
   font-size: 14px;
   line-height: 27px;
@@ -8107,7 +8114,7 @@ section[name="footer"] {
 
 .product_name{
   font-weight: lighter;
-  /* font-family: Poppins; */
+  font-family: Poppins;
   /* font-weight: 600; */
   font-size: 20px;
   /* line-height: 39px; */
@@ -8158,6 +8165,7 @@ section[name="footer"] {
   margin-top: -14px;
 }
 .card_price{
+  font-family: Poppins;
   display: inline-block;
   margin: 10px 1px 1px 10px;
   font-size: 20px;
@@ -8401,7 +8409,7 @@ section[name="footer"] {
 }
 .product-weight-1 p{
   display: inline-flex;
-  font-family: "Helvetica Neue";
+  font-family: "poppins";
   font-weight: 500;
   font-size: 14px;
   line-height: 27px;
@@ -8413,7 +8421,7 @@ section[name="footer"] {
 
 .product_name-2{
   font-weight: lighter;
-  /* font-family: Poppins; */
+  font-family: Poppins;
   /* font-weight: 600; */
   font-size: 20px;
   /* line-height: 39px; */
@@ -8815,3 +8823,183 @@ body .footer .content > div .image {
 body {
   background-color: #f0f0f0 !important;
 }
+
+/* Kazandıran ürünler slayderi */
+
+.shadow-effect {
+  width: 245px;
+  height: 334px;
+  border-radius: 30px;
+  background: #e2e3de;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+#customers-testimonials .shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  background: #3190E7;
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom:80px;
+  opacity: 1;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1.0, 1.0, 1);
+  transform: scale3d(1.0, 1.0, 1);
+}
+
+#customers-testimonials .owl-item.active.center .shadow-effect {
+  background: url(/assets/images/kazandiran_urunler.svg);
+  background-position: center;
+  background-size: cover;
+  width: 345px;
+  height: 510px;
+  border-radius: 31px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+#customers-testimonials .owl-stage {
+  margin-top: 45px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#customers-testimonials .owl-item{
+  display: flex;
+  justify-content: center;
+}
+
+.img-circle {
+  position: absolute;
+  left: 38%;
+  transform-style: preserve-3d;
+  max-width: 100px;
+  margin: 0 auto 17px;
+  margin-top: -57px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #3190E7;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+  display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #3190E7;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+
+.kaz_card_header{
+  margin-left: 5%;
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: left;
+  color: #9c968a;
+}
+.product_weight{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  color: #9c968a;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.product_points{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  color: #9c968a;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.un_line_weight{
+  text-decoration: underline;
+}
+.kazan_text_area{
+  padding-top: 120px;
+}
+
+#customers-testimonials .owl-item.active.center .kaz_card_header{
+  margin-left: 5%;
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+#customers-testimonials .owl-item.active.center .product_weight{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+#customers-testimonials .owl-item.active.center .product_points{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#customers-testimonials .owl-item.active.center .img-circle {
+  position: absolute;
+  left: 34%;
+  transform-style: preserve-3d;
+  max-width: 150px;
+  margin: 0 auto 17px;
+  margin-top: -83px;
+}
+
+#customers-testimonials .owl-item.active.center .kazan_text_area{
+  padding-top: 207px;
+}
+
+
+/* Kazandıran ürünler slayderi son */
