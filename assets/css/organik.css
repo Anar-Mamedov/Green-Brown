@@ -7938,6 +7938,10 @@ section[name="youtube"] {
   margin-bottom: 104px;
 }
 
+section[name="info_area"] {
+  margin-top: 943px;
+}
+
 section[name="footer"] {
   margin: 0 auto;
   margin-top: 140px;
