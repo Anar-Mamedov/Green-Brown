@@ -212,8 +212,8 @@
 }
 
 .rotate {
-  -webkit-animation: 2s linear infinite rotate;
-          animation: 2s linear infinite rotate;
+  -webkit-animation: 6s linear infinite rotate;
+          animation: 6s linear infinite rotate;
   position: relative;
   -webkit-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
@@ -436,6 +436,23 @@
 }
 
 /* owl carousel okları düzenleme son */
+.blog_news_heaader {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 14px;
+  color: #dbdbdb;
+  line-height: 2;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 130px;
+  padding: 3px 10px;
+  border-radius: 11px;
+  background: #299309;
+  border-left: 10px solid #b71a1a;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
 .tv_header {
   position: absolute;
   left: 9.5%;
@@ -602,13 +619,14 @@
 }
 
 .footer_text1 {
-  margin: 10px 2%;
+  margin: 47px 2%;
   max-width: 300px;
 }
 
 .footer_text1 h1 {
   font-family: Poppins;
   font-weight: 300;
+  line-height: 1.5;
   font-size: 22px;
   text-align: left;
   color: #fff;
@@ -631,6 +649,264 @@
 
 #extra_top_margin {
   margin-top: 100px !important;
+}
+
+#fligran_lg {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute !important;
+  right: 0 !important;
+}
+
+.social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 25px !important;
+}
+
+.social a {
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  line-height: 14px;
+  margin: 8px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social .fab {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  color: #111;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.social .fa-facebook-f {
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #3b5998;
+}
+
+.social .fa-instagram {
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #dc2743;
+}
+
+.social .fa-pinterest {
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #C8232C;
+}
+
+.social .fa-twitter {
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #00ACEE;
+}
+
+.social .fa-youtube {
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #FF0000;
+}
+
+.social .fa-facebook-f:hover {
+  color: white;
+  background: #3b5998;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .fa-instagram:hover {
+  color: white;
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .fa-pinterest:hover {
+  color: white;
+  background: #C8232C;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .fa-twitter:hover {
+  color: white;
+  background: #00ACEE;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .fa-youtube:hover {
+  color: white;
+  background: #FF0000;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#app {
+  max-width: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: auto;
+      align-self: auto;
+}
+
+#app img {
+  margin: 3px;
+}
+
+.footer_line1 {
+  position: absolute;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 100%;
+}
+
+.footer_line1 .line-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #00382E;
+  width: 100%;
+  height: 50px;
+}
+
+.footer_line1 .line-1 p {
+  margin-left: 10%;
+  margin-top: 13px;
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 17px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer_line1 .line-1 p strong {
+  font-weight: 600;
+}
+
+.footer_line1 .line-1 div {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 10%;
+  margin-top: 13px;
+}
+
+.footer_line1 .line-1 div img {
+  margin-left: 5%;
+  height: 25px;
+}
+
+.footer_line1 .line-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #002620;
+  width: 100%;
+  height: 50px;
+}
+
+.footer_line1 .line-2 img {
+  height: 36px;
+}
+
+.button_scss {
+  font: 12px poppins;
+  border-radius: 15.5px 15.5px 15.5px 15.5px;
+  display: inline-block;
+  padding: .5em 1em;
+  text-align: center;
+  color: #45726E;
+  background: red;
+  /* default color */
+  /* "to left" / "to right" - affects initial color */
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, white), color-stop(50%, #be2020)) right;
+  background: linear-gradient(to left, white 50%, #be2020 50%) right;
+  background-size: 200%;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.button_scss:hover {
+  background-position: left;
+  color: #ffffff;
+}
+
+.button_scss:hover svg path {
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+  fill: white;
+}
+
+.half_circle-1 {
+  position: relative;
+  margin-right: 188px;
+  margin-top: -365px;
+  z-index: 1;
+  float: right;
+  height: 134px;
+  width: 268px;
+  background: #E4451C;
+  display: inline-block;
+  border-bottom-left-radius: 268px;
+  border-bottom-right-radius: 268px;
+  -webkit-transform: rotate(357deg);
+          transform: rotate(357deg);
+}
+
+.test_product-1 {
+  margin-left: -57px;
+  margin-top: -91px;
+  position: absolute;
+  width: 388px !important;
+  height: auto !important;
+  max-inline-size: none;
+}
+
+.deneme_anar {
+  position: absolute;
+  right: 3.5%;
+  max-width: 1332.911px;
+  height: 384.011px;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.2));
+}
+
+.deneme_anar img {
+  width: 100%;
+  height: 100%;
 }
 
 h1 {

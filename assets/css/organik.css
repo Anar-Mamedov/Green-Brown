@@ -7911,9 +7911,9 @@ section[name="find_your_coffee"] {
   /* xususi marginleri burda ver */
 }
 section[name="new_product"] {
-  margin-top: 500px !important;
+  margin-top: 100px !important;
   margin: 0 auto;
-  margin-bottom: 1230px;
+  margin-bottom: 842px;
   /* xususi marginleri burda ver */
 }
 
@@ -7923,7 +7923,7 @@ section[name="card_section"] {
   /* xususi marginleri burda ver */
 }
 section[name="music_area"] {
-  margin-top: 1857px !important;
+  margin-top: 1471px !important;
   margin: 0 auto;
   margin-bottom: 322px;
   /* xususi marginleri burda ver */
@@ -7946,6 +7946,10 @@ section[name="footer"] {
   margin: 0 auto;
   margin-top: 140px;
   /* xususi marginleri burda ver */
+}
+
+section [name="finde_product"]{
+
 }
 
 
@@ -8701,9 +8705,9 @@ section[name="footer"] {
   text-align: left;
   color: #585955;
 }
-.card_section_bg img{
+.gb_logo_left_bg{
   position: absolute !important;
-    right: 0 !important;
+    left: 0 !important;
     bottom: 0 !important;
 }
 
@@ -9004,6 +9008,36 @@ body {
 #customers-testimonials .owl-item.active.center .kazan_text_area{
   padding-top: 207px;
 }
+#customers-testimonials .owl-item.active.center .button_{
+  visibility: visible !important;
+}
 
+.button_{
+  visibility: hidden !important;
+}
+#button_1{
+  position: absolute;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: center;
+  width: 112px;
+  height: 31px;
+  border-radius: 15.5px;
+  background: #fff;
+}
+.button_text{
+  margin-inline-end: 5% !important;
+  margin-top: 16px !important;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 12px !important;
+  color: #45726e;
+
+}
+.button_arrow{
+  width: 13.5px !important;
+  height: 9px;
+}
 
 /* Kazandıran ürünler slayderi son */

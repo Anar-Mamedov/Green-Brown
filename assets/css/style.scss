@@ -221,7 +221,7 @@
 // Rock coffee card
 
 .rotate {
-    animation: 2s linear infinite rotate;
+    animation: 6s linear infinite rotate;
     position: relative;
     // top: $size * -1;
     transform-origin: 50% 100%;
@@ -418,6 +418,23 @@
   /* owl carousel okları düzenleme son */
 
 
+.blog_news_heaader{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    color: #dbdbdb;
+    line-height: 2;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 130px;
+    padding: 3px 10px;
+    border-radius: 11px;
+    background: #299309;
+    border-left: 10px solid #b71a1a;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+
 // blog bölümü son
 
 // tv bölümü
@@ -569,11 +586,12 @@
     justify-content: center;
 }
 .footer_text1{
-    margin: 10px 2%;
+    margin: 47px 2%;
     max-width: 300px;
     h1{
         font-family: Poppins;
         font-weight: 300;
+        line-height: 1.5;
         font-size: 22px;
         text-align: left;
         color: #fff;
@@ -595,8 +613,226 @@
 #extra_top_margin{
     margin-top: 100px !important;
 }
+#fligran_lg{
+    align-self: flex-end;
+    position: absolute !important;
+    right: 0 !important;
+    // bottom: 0 !important;
+}
+
+// sosyal medya iconları
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px !important;
+    a{
+        font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    line-height: 14px;
+    margin: 8px 0;
+    display: flex;
+    }
+    .fab {
+        background: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    }
+    .fa-facebook-f{
+        font-size: 25px;
+    transition: .5s;
+    color: #3b5998;
+    }
+    .fa-instagram{
+        font-size: 25px;
+    transition: .5s;
+    color: #dc2743;
+    }
+    .fa-pinterest{
+        font-size: 25px;
+        transition: .5s;
+        color: #C8232C;
+    }
+    .fa-twitter{
+        font-size: 25px;
+    transition: .5s;
+    color: #00ACEE;
+    }
+    .fa-youtube{
+        font-size: 25px;
+    transition: .5s;
+    color: #FF0000;
+    }
+    .fa-facebook-f:hover{
+        color: white;
+    background: #3b5998;
+    transform: scale(1.2);
+    }
+    .fa-instagram:hover{
+        color: white;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    transform: scale(1.2);
+    }
+    .fa-pinterest:hover{
+        color: white;
+    background: #C8232C;
+    transform: scale(1.2);
+    }
+    .fa-twitter:hover{
+        color: white;
+    background: #00ACEE;
+    transform: scale(1.2);
+    }
+    .fa-youtube:hover{
+        color: white;
+    background: #FF0000;
+    transform: scale(1.2);
+    }
+    
+}
+// sosyal medya iconları son
+
+#app{
+    max-width: 112px;
+    display: flex;
+    align-self: auto;
+    img{
+        margin: 3px;
+    }
+}
+
+.footer_line1{
+    position: absolute;
+    align-self: flex-end;
+    width: 100%;
+    .line-1{
+        display: flex;
+            align-content: center;
+        background-color: #00382E;
+        width: 100%;
+        height: 50px;
+        p{
+            margin-left: 10%;
+            margin-top: 13px;
+            font-family: Poppins;
+            font-weight: 200;
+            font-size: 17px;
+            text-align: left;
+            color: #fff;
+            strong{
+                font-weight: 600;
+            }
+        }
+        div{
+            
+            position: absolute;
+            display: flex;
+            right: 10%;
+            margin-top: 13px;
+            img{
+                margin-left: 5%;
+                height: 25px;
+            }
+        }
+    }
+    .line-2{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color: #002620;
+        width: 100%;
+        height: 50px;
+        img{
+            height: 36px;
+        }
+    }
+}
 
 // footer son
+
+//buton tasarımı
+
+.button_scss {
+    font: 12px poppins;
+    border-radius: 15.5px 15.5px 15.5px 15.5px;
+    display: inline-block;
+    padding: .5em 1em;
+    text-align: center;
+    color: #45726E;
+    background: red; /* default color */
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(190, 32, 32) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    
+}
+.button_scss:hover {
+    background-position: left;
+    color: #ffffff;
+    svg path{
+        transition: 1s ease-out;
+        fill: rgb(255, 255, 255);
+    }
+}
+
+//buton tasarımı son
+
+//test kısmı
+
+
+.half_circle-1 {
+    position: relative;
+    margin-right: 188px;
+    margin-top: -365px;
+    z-index: 1;
+    float: right;
+    height: 134px;
+    width: 268px;
+    background: #E4451C;
+    display: inline-block;
+    border-bottom-left-radius: 268px;
+    border-bottom-right-radius: 268px;
+    transform: rotate(357deg);
+  }
+  .test_product-1{
+    margin-left: -57px;
+    margin-top: -91px;
+    position: absolute;
+    width: 388px !important;
+    height: auto !important;
+    max-inline-size: none;
+  }
+
+
+//test kısmı son
+
+
+
+
+.deneme_anar{
+    position: absolute;
+    right: 3.5%;
+    max-width: 1332.911px;
+    height: 384.011px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.2));
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
 
 // toplu font 
 
