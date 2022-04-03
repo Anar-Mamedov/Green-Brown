@@ -450,3 +450,99 @@
     }
   });
 })(jQuery);
+
+
+
+
+
+// kendi yazdığım javascript kodları
+
+// ürünleri satın alırken adet kaç adet seçimi için
+
+$('.button-count:first-child').click(function(){
+  const el = $(this)
+  const input = el.parents('#product_count-1').find('input:text')
+  const minusBtn = el.parents('#product_count-1').find('.button-count:first-child')
+  const plusBtn = el.parents('#product_count-1').find('.button-count:last-child')
+
+  const num = parseInt(input.val());
+  if (num > 1) {
+    input.val(num - 1);
+  }
+  if (num == 2) {
+    minusBtn.prop('disabled', true);
+  }
+  if (num == 10) {
+    plusBtn.prop('disabled', false);
+  }
+});
+
+$('.button-count:last-child').click(function(){
+  const el = $(this)
+  const input = el.parents('#product_count-1').find('input:text')
+  const minusBtn = el.parents('#product_count-1').find('.button-count:first-child')
+  const plusBtn = el.parents('#product_count-1').find('.button-count:last-child')
+  
+  const num = parseInt(input.val());
+  console.log(num);
+  if (num < 10) {
+    input.val(num + 1);
+  }
+  if (num > 0) {
+    minusBtn.prop('disabled', false);
+  }
+  if (num == 9) {
+    plusBtn.prop('disabled', true);
+  }
+});
+
+
+// ürünleri satın alırken adet kaç adet seçimi için son
+
+
+
+
+
+// ____________________________________________________________________
+
+
+
+
+// ürünler kısmındakı dropdown menü kategori kısmı
+
+
+
+
+
+
+
+// Ürünler kısmındakı dropdown menü kategori kısmı son
+
+
+
+
+
+// ürün detay paylaş butonu
+
+
+// Force a hover to see the effect
+const share = document.querySelector('.share');
+
+setTimeout(() => {
+  share.classList.add("hover");
+}, 1000);
+
+setTimeout(() => {
+  share.classList.remove("hover");
+}, 3000);
+
+$('section[name="bestseller"] .share_button').on('click', function() {
+  $('section[name="bestseller"] .sm-wrapper:visible').toggle('show')
+  $(this).parents('.card-of-product').find('.sm-wrapper:hidden').toggle('show')
+})
+
+$(document).on("click", function (event) {
+  if ($(event.target).closest('section[name="bestseller"] .share_button').length === 0) {
+    $('section[name="bestseller"] .sm-wrapper:visible').toggle('show')
+  } 
+});
