@@ -1,0 +1,287 @@
+@font-face {
+    font-family: fontello;
+    src: url(../webfonts/fontello/fontello2c7c.eot?59086843);
+    src: url(../webfonts/fontello/fontello2c7c.eot?59086843#iefix) format('embedded-opentype'), url(../webfonts/fontello/fontello2c7c.woff2?59086843) format('woff2'), url(../webfonts/fontello/fontello2c7c.woff?59086843) format('woff'), url(../webfonts/fontello/fontello2c7c.ttf?59086843) format('truetype'), url(../webfonts/fontello/fontello2c7c.svg?59086843#fontello) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+.penta-icon {
+    font-family: fontello;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-data:before {
+    content: '\e800'
+}
+
+.icon-e-commerce:before {
+    content: '\e801'
+}
+
+.icon-e-commerce-2:before {
+    content: '\e802'
+}
+
+.icon-web-software:before {
+    content: '\e803'
+}
+
+.icon-youtube:before {
+    content: '\e804'
+}
+
+.icon-facebook:before {
+    content: '\e805'
+}
+
+.icon-get-an-offer:before {
+    content: '\e806'
+}
+
+.icon-a-design:before {
+    content: '\e807'
+}
+
+.icon-banner-design:before {
+    content: '\e808'
+}
+
+.icon-google-a:before {
+    content: '\e809'
+}
+
+.icon-graphic-design:before {
+    content: '\e810'
+}
+
+.icon-brand-registration:before {
+    content: '\e811'
+}
+
+.icon-map-marker:before {
+    content: '\e812'
+}
+
+.icon-corporate-identity:before {
+    content: '\e813'
+}
+
+.icon-mountain:before {
+    content: '\e814'
+}
+
+.icon-phone:before {
+    content: '\e815'
+}
+
+.icon-customer:before {
+    content: '\e816'
+}
+
+.icon-envelope:before {
+    content: '\e817'
+}
+
+.icon-envelope-2:before {
+    content: '\e818'
+}
+
+.icon-play:before {
+    content: '\e819'
+}
+
+.icon-linkedin:before {
+    content: '\e820'
+}
+
+.icon-rocket:before {
+    content: '\e821'
+}
+
+.icon-slider-down:before {
+    content: '\e822'
+}
+
+.icon-social-media:before {
+    content: '\e823'
+}
+
+.icon-chevron-left:before {
+    content: '\e824'
+}
+
+.icon-chevron-right:before {
+    content: '\e825'
+}
+
+.icon-chevron-up:before {
+    content: '\e826'
+}
+
+.icon-chevron-down:before {
+    content: '\e827'
+}
+
+.icon-arrow-down:before {
+    content: '\e828'
+}
+
+.icon-arrow-left:before {
+    content: '\e829'
+}
+
+.icon-arrow-right:before {
+    content: '\e830'
+}
+
+.icon-web-design-1:before {
+    content: '\e831'
+}
+
+.icon-web-design-2:before {
+    content: '\e832'
+}
+
+.icon-twitter:before {
+    content: '\e833'
+}
+
+.icon-ui-design:before {
+    content: '\e834'
+}
+
+.icon-arrow-up:before {
+    content: '\e835'
+}
+
+.icon-home:before {
+    content: '\e836'
+}
+
+.icon-desktop-computer:before {
+    content: '\e837'
+}
+
+.icon-television:before {
+    content: '\e838'
+}
+
+.icon-smart-tablet:before {
+    content: '\e839'
+}
+
+.icon-smart-phone:before {
+    content: '\e840'
+}
+
+.icon-laptop:before {
+    content: '\e841'
+}
+
+.icon-experience:before {
+    content: '\e842'
+}
+
+.icon-check:before {
+    content: '\e843'
+}
+
+.icon-quote:before {
+    content: '\e844'
+}
+
+.icon-credit-card:before {
+    content: '\e845'
+}
+
+.icon-map-marker-3:before {
+    content: '\e846'
+}
+
+.icon-phone-2:before {
+    content: '\e847'
+}
+
+.icon-map-marker-2:before {
+    content: '\e848'
+}
+
+.icon-calendar:before {
+    content: '\e849'
+}
+
+.icon-comment:before {
+    content: '\e850'
+}
+
+.icon-eye:before {
+    content: '\e851'
+}
+
+.icon-magnifier:before {
+    content: '\e852'
+}
+
+.icon-user:before {
+    content: '\e853'
+}
+
+.icon-email:before {
+    content: '\e854'
+}
+
+.icon-cadet-bottom:before {
+    content: '\e855'
+}
+
+.icon-cadet-left:before {
+    content: '\e856'
+}
+
+.icon-cadet-right:before {
+    content: '\e857'
+}
+
+.icon-cadet-top:before {
+    content: '\e858'
+}
+
+.icon-email-2:before {
+    content: '\e859'
+}
+
+.icon-map-marker-1:before {
+    content: '\e860'
+}
+
+.icon-whatsapp:before {
+    content: '\e861'
+}
+
+.icon-pinterest:before {
+    content: '\e862'
+}
+
+.icon-bar:before {
+    content: '\e863'
+}
+
+.icon-star:before {
+    content: '\e864'
+}
+
+.icon-close:before {
+    content: '\e865'
+}

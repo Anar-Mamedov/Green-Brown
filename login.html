@@ -19,6 +19,8 @@
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="" />
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -68,7 +70,7 @@
 <body
     class="templates-template-default single-templates postid-23411 custom-background wp-custom-logo tg-container--wide tg-site-layout--no-sidebar page">
 
-    <section name="Menu">
+    <section name="Menu" style="z-index: 200;">
         <nav class="main-menu">
             <div class="container">
                 <div class="main-menu__login">
@@ -190,176 +192,59 @@
 
     
 
-    <section class="cart-page">
-        <div class="container">
-            <div class="table-responsive">
-                <table class="table cart-table">
-                    <thead>
-                        <tr>
-                            <th>Ürün</th>
-                            <th>Fiyat</th>
-                            <th>Miktar</th>
-                            <th>Toplam</th>
-                            <th>Sil</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="product-box">
-                                    <img style="width:112px;" src="assets/images/frapuchino-çikolata.png" alt="">
-                                    <h3><a href="product-details.html">Türk Kahvesi</a></h3>
-                                </div><!-- /.product-box -->
-                            </td>
-                            <td>9.99 TL</td>
-                            <td>
-                                <div id="product_count-1" style="margin-left: -31px; margin-top: -35px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="174" height="69" viewBox="0 0 174 69">
-                                        <defs>
-                                            <filter id="Rectangle_380" x="0" y="0" width="174" height="69" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                            <filter id="Line_40" x="52" y="8" width="19" height="53" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur-2"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur-2"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                            <filter id="Line_41" x="104" y="8" width="19" height="53" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur-3"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur-3"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                        </defs>
-                                        <g id="Group_470" data-name="Group 470" transform="translate(-380.667 -688.87)">
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Rectangle_380)">
-                                                <rect id="Rectangle_380-2" data-name="Rectangle 380" width="156" height="51" rx="8" transform="translate(9 6)" fill="#fff"></rect>
-                                            </g>
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Line_40)">
-                                                <line id="Line_40-2" data-name="Line 40" y2="35" transform="translate(61.5 14)" fill="none" stroke="#707070" stroke-width="1"></line>
-                                            </g>
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Line_41)">
-                                                <line id="Line_41-2" data-name="Line 41" y2="35" transform="translate(113.5 14)" fill="none" stroke="#707070" stroke-width="1"></line>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <div style="position:absolute; margin-top: -63px; margin-left: 11px;">
-                                        <button id="minus_button_count" class="button-count no-active" disabled="">-</button>
-                                        <input type="text" readonly="" class="number-product" value="1">
-                                        <button id="plus_button_count" class="button-count">+</button>
-                                    </div>
-            
-                                </div>
-                            </td>
-                            <td>
-                                9.99 TL
-                            </td>
-                            <td>
-                                <i class="organik-icon-close remove-icon"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="product-box">
-                                    <img style="width: 112px;" src="assets/images/frapuchino-çilek.png" alt="">
-                                    <h3><a href="product-details.html">Filtre Kahve</a></h3>
-                                </div><!-- /.product-box -->
-                            </td>
-                            <td>9.99 TL</td>
-                            <td>
-                                <div id="product_count-1" style="margin-left: -31px; margin-top: -35px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="174" height="69" viewBox="0 0 174 69">
-                                        <defs>
-                                            <filter id="Rectangle_380" x="0" y="0" width="174" height="69" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                            <filter id="Line_40" x="52" y="8" width="19" height="53" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur-2"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur-2"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                            <filter id="Line_41" x="104" y="8" width="19" height="53" filterUnits="userSpaceOnUse">
-                                                <feOffset dy="3" input="SourceAlpha"></feOffset>
-                                                <feGaussianBlur stdDeviation="3" result="blur-3"></feGaussianBlur>
-                                                <feFlood flood-opacity="0.161"></feFlood>
-                                                <feComposite operator="in" in2="blur-3"></feComposite>
-                                                <feComposite in="SourceGraphic"></feComposite>
-                                            </filter>
-                                        </defs>
-                                        <g id="Group_470" data-name="Group 470" transform="translate(-380.667 -688.87)">
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Rectangle_380)">
-                                                <rect id="Rectangle_380-2" data-name="Rectangle 380" width="156" height="51" rx="8" transform="translate(9 6)" fill="#fff"></rect>
-                                            </g>
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Line_40)">
-                                                <line id="Line_40-2" data-name="Line 40" y2="35" transform="translate(61.5 14)" fill="none" stroke="#707070" stroke-width="1"></line>
-                                            </g>
-                                            <g transform="matrix(1, 0, 0, 1, 380.67, 688.87)" filter="url(#Line_41)">
-                                                <line id="Line_41-2" data-name="Line 41" y2="35" transform="translate(113.5 14)" fill="none" stroke="#707070" stroke-width="1"></line>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <div style="position:absolute; margin-top: -63px; margin-left: 11px;">
-                                        <button id="minus_button_count" class="button-count no-active" disabled="">-</button>
-                                        <input type="text" readonly="" class="number-product" value="1">
-                                        <button id="plus_button_count" class="button-count">+</button>
-                                    </div>
-            
-                                </div>
-                            </td>
-                            <td>
-                                9.99 TL
-                            </td>
-                            <td>
-                                <i class="organik-icon-close"></i>
-                            </td>
-                        </tr>
-                    </tbody>
+    <div class="login_1" style="position: relative; margin-top: 30px; margin-bottom: 30px; z-index: 0;">
 
-                </table><!-- /.table -->
-            </div><!-- /.table-responsive -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <form action="#" class="contact-one__form">
-                        <input type="text" placeholder="Kupon kodunuzu girin">
-                        <button type="submit" class="thm-btn">Kuponu Uygula</button><!-- /.thm-btn -->
-                    </form><!-- /.contact-one__form -->
-                </div><!-- /.col-lg-8 -->
-                <div class="col-lg-4">
-                    <ul class="cart-total list-unstyled">
-                        <li>
-                            <span>Ara Toplam</span>
-                            <span>19.98 TL</span>
-                        </li>
-                        <li>
-                            <span>Kargo Ücreti</span>
-                            <span>0.00 TL</span>
-                        </li>
-                        <li>
-                            <span>Toplam</span>
-                            <span>19.98 TL</span>
-                        </li>
-                    </ul><!-- /.cart-total -->
-                    <div class="button-box">
-                        <a href="#" class="thm-btn">Güncelle</a><!-- /.thm-btn -->
-                        <a href="checkout.html" class="thm-btn">Ödeme</a><!-- /.thm-btn -->
-                    </div><!-- /.button-box -->
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
+        
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Hesap Oluştur</h1>
+                    <div class="social-container">
+                        <a href="#" class="social-1"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-1"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social-1"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>veya kayıt için e-postanızı kullanın</span>
+                    <input type="text" placeholder="İsim" />
+                    <input type="email" placeholder="E-Posta" />
+                    <input type="password" placeholder="Şifre" />
+                    <button>Üye ol</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Giriş Yap</h1>
+                    <div class="social-container">
+                        <a href="#" class="social-1"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-1"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social-1"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>veya hesabınızı kullanın</span>
+                    <input type="email" placeholder="E-Posta" />
+                    <input type="password" placeholder="Şifre" />
+                    <a href="#">Parolanızı mı unuttunuz?</a>
+                    <button>Giriş Yap</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Hoş Geldin</h1>
+                        <p>Bizimle bağlantıda kalmak için lütfen kişisel bilgilerinizle giriş yapın</p>
+                        <button class="ghost" id="signIn">Giriş Yap</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Merhaba!</h1>
+                        <p>Üye değilsen bilgilerini yazarak üye ola bilirsin.</p>
+                        <button class="ghost" id="signUp">Üye ol</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
 
     
     
@@ -549,6 +434,21 @@
     <script src="assets/vendors/countdown/countdown.min.js"></script>
     <!-- template js -->
     <script src="assets/js/organik.js"></script>
+
+    <script>
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
+        });
+    </script>
+
 </body>
 
 </html>
