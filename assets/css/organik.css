@@ -8214,7 +8214,45 @@ section [name="finde_product"]{
   align-items:center;
   align-content:center;
 }
-.favorite_icon{
+
+
+.favorite_icon {
+  cursor: pointer;
+  margin-bottom: 0rem;
+  margin-right: 3px;
+}
+
+.favorite_icon input + .like_button1231 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  transition: all .2s ease-out;
+  background-color: #45726e;
+}
+
+.favorite_icon input + .like_button1231:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 41px;
+  height: 41px;
+}
+
+.favorite_icon input:checked + .like_button1231 {
+  background-color: rgb(175, 0, 0);
+}
+
+
+/* .favorite_icon{
   display: flex;
   justify-content: center;
   width: 31px;
@@ -8235,7 +8273,7 @@ section [name="finde_product"]{
   
   
   margin-right: 5px;
-}
+} */
 .favorite_icon img{
   display: flex;
   justify-content: center;
@@ -8601,7 +8639,48 @@ section[name="bestseller"] .share_button .sm-wrapper .sm-icon:nth-child(3) {
   align-items:center;
   align-content:center;
 }
-.favorite_icon-2{
+.favorite_icon-2 {
+  cursor: pointer;
+  margin-bottom: 0rem;
+  margin-right: 3px;
+}
+
+.favorite_icon-2 input + .like_button1231 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  transition: all .2s ease-out;
+  background-color: #ffffff;
+  background-image: url(/assets/images/Iconly-Heart-green.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 19px;
+}
+
+.favorite_icon-2 input + .like_button1231:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transform: scale(1.2);
+}
+
+.favorite_icon-2 input:checked + .like_button1231 {
+  background-image: url(/assets/images/Iconly-Heart.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 19px;
+  background-color: rgb(175, 0, 0);
+}
+/* .favorite_icon-2{
   display: flex;
   justify-content: center;
   width: 31px;
@@ -8622,7 +8701,7 @@ section[name="bestseller"] .share_button .sm-wrapper .sm-icon:nth-child(3) {
   
   
   margin-right: 5px;
-}
+} */
 .favorite_icon-2 img{
   display: flex;
   justify-content: center;
@@ -10747,3 +10826,4 @@ background: #60be74;
   background-color: #EB2F5B !important;
   box-shadow: 0 0 0 5px rgba(235, 47, 91, 0.25);
 }
+
