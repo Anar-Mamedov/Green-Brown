@@ -1,0 +1,66 @@
+/*  other.css */
+#header .field-2 ul li > a:hover.hvr-underline-from-left:before {
+    background: transparent !important;
+}
+
+::selection {
+    background: #72777f;
+}
+
+header .get-a-quick-order {
+    width: 200px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    margin: -5px 20px 0 !important;
+    line-height: 55px !important;
+    height: 55px !important;
+    text-align:center !important;
+    border: none !important;
+    background-size: 300% 100% !important;
+    border-radius: 50px !important;
+    transition: all .4s ease-in-out !important;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7) !important;
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75) !important;
+}
+header .get-a-quick-order:hover {
+    background-position: 100% 0 !important;
+    transition: all .4s ease-in-out !important;
+}
+
+
+
+
+
+/* - */
+#header .penta-dropdown-content {display: block; top: -1000px; transition: none; min-height: 555px; max-height: 555px;}
+#header .penta-dropdown-content .penta-dropdown-inner {padding: 140px 0 60px 0 !important;}
+/* - */
+#WhatWeDid_Comments {}
+#WhatWeDid_Comments .owl-dots {margin-top: 32px; text-align: center;}
+#WhatWeDid_Comments .owl-dots .owl-dot {background-color: #A1A3AF; border-radius: 50%; width: 12px; height: 12px; margin-left: 5px;}
+#WhatWeDid_Comments .owl-dots .owl-dot.active {background-color: #EB2F5B;}
+/* - */
+#homepage #who-are-we .what-we-doing-slider .content-inner .content-front, #homepage #who-are-we .what-we-doing-slider .content-inner .content-back, #homepage #who-are-we .how-should-it-be-slider .content-inner {box-shadow: none !important; border: none !important;}
+/* - */
+#homepage .we-call-you #submitCallRequest {
+    cursor: pointer;
+}
+/* - */
+.penta-dropdown .penta-dropdown-content p.dropdown-paragraph {
+    white-space: normal;
+    text-align: justify;
+    color: #A8A8A8;
+    font-size: 14px;
+    max-width: 90%;
+}
+/* - */
+.corporate-dropdown a.dropdown-title.w40::before {width: 40% !important;}
+/* - */
+#homepage #homepage-slider .text-field {width: 50% !important;}
+/* - */
+#header .field-2 ul li > a {font-weight: normal !important;}
+/* - */
+.form-input.fi-1, .form-input.fi-2, #homepage .we-call-you .field-2 #wrap form .form-input {border-radius: 20px !important;}
+/* - */
