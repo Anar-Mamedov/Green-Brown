@@ -4,9 +4,12 @@ $(function () {
 
   $('.category-slayder').owlCarousel({
     nav: true,
+    loop: true,
     navText: [previcon, nexticon],
     dots: false,
     margin: 40,
+    autoplay: true,
+    autoplayTimeout: 3500,
     smartSpeed: 1000,
     responsive: {
       0: { items: 2 },

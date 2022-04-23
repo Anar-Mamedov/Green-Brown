@@ -517,11 +517,11 @@
 .kargo {
   padding-top: 15px;
   width: 230px;
+  border-radius: 18px;
   transition: 0.5s;
 }
 .kargo:hover {
-  border-radius: 18px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: solid #004d3f 1px;
   transform: scale(1.05);
 }
 .kargo .shape_of_icon {
@@ -6413,6 +6413,66 @@ section[name=about1st] p {
 
 .tp-bullets {
   margin-top: 6px !important;
+}
+
+.form_area_contact input:focus, .form_area_contact textarea:focus {
+  background: rgba(255, 0, 0, 0) !important;
+  border: none !important;
+}
+
+.navbar12 {
+  background-color: #fff;
+  width: 100%;
+  height: 75px;
+}
+.navbar12 a:hover {
+  color: #44726e;
+}
+.navbar12 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none !important;
+  margin-bottom: 0px;
+}
+.navbar12 ul li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.navbar12 .menu1_hover {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 560px;
+  background-color: #fff;
+}
+.navbar12 .menu1_hover .inside_menu1 {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar12 .menu1_hover .inside_menu1 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.navbar12 .product123:hover .menu1_hover {
+  z-index: 2;
+  position: absolute;
+  display: block;
+}
+.navbar12 .first_header12::before {
+  content: "";
+  position: absolute;
+  bottom: 440px;
+  width: 312px;
+  height: 1px;
+  background: url(/assets/images/pattern-1.png);
+}
+.navbar12 .about_us12 p {
+  width: 378px;
 }
 
 /*# sourceMappingURL=style.css.map */
