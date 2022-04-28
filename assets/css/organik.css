@@ -9106,6 +9106,7 @@ body {
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
   /* background: #3190E7; */
+  background-image: url(/assets/images/kahvecekirdek3-colored.svg) !important;
   transform: translate3d(0px, -50%, 0px) scale(1.5);
 }
 #customers-testimonials.owl-carousel .owl-dots{
@@ -9116,6 +9117,7 @@ body {
   text-align: center;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot{
+  margin-right: 5px;
   display: inline-block;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot span {

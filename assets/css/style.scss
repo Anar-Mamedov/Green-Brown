@@ -6214,3 +6214,74 @@ a {
         }
     }
 }
+
+
+
+// hesap düzenleme
+
+.edit_account{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .buton21{
+        font-weight: 600;
+        margin-top: 20px;
+        color: #fff;
+        border-radius: 10px;
+        background-color: #00382E;
+        height: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        transition: 0.3s;
+        &:hover{
+            background-color: #155243;
+            transition: 0.3s;
+        }
+    }
+    .left_menu_account{
+        border-radius: 9px;
+        line-height: 35px;
+        padding-left: 20px;
+        padding-top: 10px;
+        width: 275px;
+        height: 300px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    .personal_information{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 9px;
+        input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], select, textarea{
+            background: rgb(255, 255, 255) !important;
+            border-radius: 10px;
+            margin-top: 10px;
+            
+            &:focus{
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                border: 0 solid rgba(28, 9, 80, 0);
+            }
+        }
+        
+    }
+    .account_password{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 9px;
+        input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], select, textarea{
+            background: rgb(255, 255, 255) !important;
+            border-radius: 10px;
+            margin-top: 10px;
+            
+            &:focus{
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                border: 0 solid rgba(28, 9, 80, 0);
+            }
+        }
+    }
+}
