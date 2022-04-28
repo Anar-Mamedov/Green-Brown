@@ -6539,4 +6539,33 @@ section[name=about1st] p {
   border: 0 solid rgba(28, 9, 80, 0);
 }
 
+.orders_table td, .orders_table th {
+  font-size: 14px;
+}
+.orders_table button {
+  background-color: #002620;
+}
+.orders_table button:hover {
+  transition: background-color 0.2s ease-out;
+  background-color: #155243;
+}
+
+.custom_form_style input[type=text], .custom_form_style input[type=email], .custom_form_style input[type=url], .custom_form_style input[type=password], .custom_form_style input[type=search], .custom_form_style input[type=number], .custom_form_style input[type=tel], .custom_form_style input[type=range], .custom_form_style input[type=date], .custom_form_style input[type=month], .custom_form_style input[type=week], .custom_form_style input[type=time], .custom_form_style input[type=datetime], .custom_form_style input[type=datetime-local], .custom_form_style input[type=color], .custom_form_style select, .custom_form_style textarea {
+  background: rgb(255, 255, 255) !important;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.custom_form_style input[type=text]:focus, .custom_form_style input[type=email]:focus, .custom_form_style input[type=url]:focus, .custom_form_style input[type=password]:focus, .custom_form_style input[type=search]:focus, .custom_form_style input[type=number]:focus, .custom_form_style input[type=tel]:focus, .custom_form_style input[type=range]:focus, .custom_form_style input[type=date]:focus, .custom_form_style input[type=month]:focus, .custom_form_style input[type=week]:focus, .custom_form_style input[type=time]:focus, .custom_form_style input[type=datetime]:focus, .custom_form_style input[type=datetime-local]:focus, .custom_form_style input[type=color]:focus, .custom_form_style select:focus, .custom_form_style textarea:focus {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border: 0 solid rgba(28, 9, 80, 0);
+}
+
+.help_form h1 {
+  font-size: 25px;
+}
+
+a:hover {
+  color: green !important;
+}
+
 /*# sourceMappingURL=style.css.map */

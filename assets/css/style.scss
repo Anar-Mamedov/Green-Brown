@@ -6285,3 +6285,58 @@ a {
         }
     }
 }
+
+
+
+// siparişlerim sayfası
+
+.orders_table{
+    td, th{
+        font-size: 14px;
+        
+    }
+    button{
+        background-color: #002620;
+        &:hover{
+            transition: background-color .2s ease-out;
+            background-color: #155243;
+        }
+    }
+}
+
+
+
+// özl form style
+
+
+.custom_form_style{
+    input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], select, textarea{
+        background: rgb(255, 255, 255) !important;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+        &:focus{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            border: 0 solid rgba(28, 9, 80, 0);
+        }
+    }
+}
+
+
+
+// yardım-destek-talebi sayfası
+
+.help_form{
+    h1{
+        font-size: 25px;
+    }
+}
+
+
+// linklerin üzerine geldiğinde değişen rengin style kodu
+
+a{
+    &:hover{
+        color: green !important;
+    }
+}
