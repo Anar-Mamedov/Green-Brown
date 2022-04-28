@@ -6475,4 +6475,68 @@ section[name=about1st] p {
   width: 378px;
 }
 
+.edit_account {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.edit_account .buton21 {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #00382E;
+  height: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  transition: 0.3s;
+}
+.edit_account .buton21:hover {
+  background-color: #155243;
+  transition: 0.3s;
+}
+.edit_account .left_menu_account {
+  border-radius: 9px;
+  line-height: 35px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 275px;
+  height: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.edit_account .personal_information {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+}
+.edit_account .personal_information input[type=text], .edit_account .personal_information input[type=email], .edit_account .personal_information input[type=url], .edit_account .personal_information input[type=password], .edit_account .personal_information input[type=search], .edit_account .personal_information input[type=number], .edit_account .personal_information input[type=tel], .edit_account .personal_information input[type=range], .edit_account .personal_information input[type=date], .edit_account .personal_information input[type=month], .edit_account .personal_information input[type=week], .edit_account .personal_information input[type=time], .edit_account .personal_information input[type=datetime], .edit_account .personal_information input[type=datetime-local], .edit_account .personal_information input[type=color], .edit_account .personal_information select, .edit_account .personal_information textarea {
+  background: rgb(255, 255, 255) !important;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.edit_account .personal_information input[type=text]:focus, .edit_account .personal_information input[type=email]:focus, .edit_account .personal_information input[type=url]:focus, .edit_account .personal_information input[type=password]:focus, .edit_account .personal_information input[type=search]:focus, .edit_account .personal_information input[type=number]:focus, .edit_account .personal_information input[type=tel]:focus, .edit_account .personal_information input[type=range]:focus, .edit_account .personal_information input[type=date]:focus, .edit_account .personal_information input[type=month]:focus, .edit_account .personal_information input[type=week]:focus, .edit_account .personal_information input[type=time]:focus, .edit_account .personal_information input[type=datetime]:focus, .edit_account .personal_information input[type=datetime-local]:focus, .edit_account .personal_information input[type=color]:focus, .edit_account .personal_information select:focus, .edit_account .personal_information textarea:focus {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border: 0 solid rgba(28, 9, 80, 0);
+}
+.edit_account .account_password {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+}
+.edit_account .account_password input[type=text], .edit_account .account_password input[type=email], .edit_account .account_password input[type=url], .edit_account .account_password input[type=password], .edit_account .account_password input[type=search], .edit_account .account_password input[type=number], .edit_account .account_password input[type=tel], .edit_account .account_password input[type=range], .edit_account .account_password input[type=date], .edit_account .account_password input[type=month], .edit_account .account_password input[type=week], .edit_account .account_password input[type=time], .edit_account .account_password input[type=datetime], .edit_account .account_password input[type=datetime-local], .edit_account .account_password input[type=color], .edit_account .account_password select, .edit_account .account_password textarea {
+  background: rgb(255, 255, 255) !important;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.edit_account .account_password input[type=text]:focus, .edit_account .account_password input[type=email]:focus, .edit_account .account_password input[type=url]:focus, .edit_account .account_password input[type=password]:focus, .edit_account .account_password input[type=search]:focus, .edit_account .account_password input[type=number]:focus, .edit_account .account_password input[type=tel]:focus, .edit_account .account_password input[type=range]:focus, .edit_account .account_password input[type=date]:focus, .edit_account .account_password input[type=month]:focus, .edit_account .account_password input[type=week]:focus, .edit_account .account_password input[type=time]:focus, .edit_account .account_password input[type=datetime]:focus, .edit_account .account_password input[type=datetime-local]:focus, .edit_account .account_password input[type=color]:focus, .edit_account .account_password select:focus, .edit_account .account_password textarea:focus {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border: 0 solid rgba(28, 9, 80, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
