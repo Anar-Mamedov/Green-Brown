@@ -6340,3 +6340,108 @@ a{
         color: green !important;
     }
 }
+
+
+
+//çan checkbox
+
+
+.bell-ring{
+    line-height: 12px;
+    margin-bottom: 8px;
+  }
+  .ring_checkbox {
+    cursor: pointer;
+    margin-bottom: 0rem ;
+    // margin-right: 3px ;
+    input {
+        + {
+            .bell-ring1231 {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                transition: all .3s ease-out;
+                /* background-color: #45726e; */
+                /* &:hover {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    width: 41px;
+                    height: 41px;
+                } */
+            }
+        }
+        &:checked {
+            + {
+                .bell-ring1231 {
+                    path{
+                      stroke: rgb(175, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+    img{
+        width: 60%;
+        object-fit: contain;
+    }
+}
+
+
+.bestseller_carousel1{
+    html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        // background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    .swiper-slide.swiper-slide-next {
+        z-index: -1;
+    }
+
+    //   .swiper-slide img {
+    //     display: block;
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: cover;
+    //   }
+}
