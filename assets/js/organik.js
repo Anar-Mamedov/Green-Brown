@@ -525,6 +525,7 @@ $('.button-count:last-child').click(function(){
 // ürün detay paylaş butonu
 
 
+// share butonu
 // Force a hover to see the effect
 const share = document.querySelector('.share');
 
@@ -536,13 +537,26 @@ setTimeout(() => {
   share.classList.remove("hover");
 }, 3000);
 
-$('section[name="bestseller"] .share_button').on('click', function() {
-  $('section[name="bestseller"] .sm-wrapper:visible').toggle('show')
+$('.card-of-product .share_button').on('click', function() {
+  $('.card-of-product .sm-wrapper:visible').toggle('show')
   $(this).parents('.card-of-product').find('.sm-wrapper:hidden').toggle('show')
 })
 
 $(document).on("click", function (event) {
-  if ($(event.target).closest('section[name="bestseller"] .share_button').length === 0) {
-    $('section[name="bestseller"] .sm-wrapper:visible').toggle('show')
+  if ($(event.target).closest('.card-of-product .share_button').length === 0) {
+    $('.card-of-product .sm-wrapper:visible').toggle('show')
   } 
-});
+})
+
+// yeşil kartların paylaş butonu için
+
+$('.card-of-product-2 .share_button').on('click', function() {
+  $('.card-of-product-2 .sm-wrapper:visible').toggle('show')
+  $(this).parents('.card-of-product-2').find('.sm-wrapper:hidden').toggle('show')
+})
+
+$(document).on("click", function (event) {
+  if ($(event.target).closest('.card-of-product-2 .share_button').length === 0) {
+    $('.card-of-product-2 .sm-wrapper:visible').toggle('show')
+  } 
+})
