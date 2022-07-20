@@ -59,6 +59,10 @@
     <link rel="stylesheet" href="/assets/owlcarousel/owl.theme.default.min.css">
     <!-- carousel end -->
 
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <!-- slayder css link -->
     
     <link rel="preload" href="wp-content/cache/min/1/Slayder-main.css" data-rocket-async="style" as="style"
@@ -441,7 +445,20 @@
                 <li><a href="">Franchising</a></li>
                 <li><a href="">İletişim</a></li>
                 <li><a href="">0850 305 05 16</a></li>
-                
+                <li><a href="/login.html">Giriş Yap & Üye Ol</a></li>
+                <!-- alttaki Hoş Geldin yazan kısım kullanıcı giriş yaptıktan sonra Giriş & Üye ol yazan yerin yerine gelecek -->
+                <li class="user_name_hover">Hoş Geldin <b>Anar</b>
+                    <span class="user_hover">
+                        <div>
+                            <ul style=" display: flex; flex-direction: column; ">
+                                <li><a href="cart.html">Siparişler</a></li>
+                                <li><a href="kullanici_bilgilerim.html">Hesabı Düzenle</a></li>
+                                <li><a href="favori-urunler.html">Favoriler</a></li>
+                                <li><a href="login.html">Çıkış</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                </li>
             </ul>
             
         </div>
@@ -3095,7 +3112,7 @@
             <div class="background_logo-1">
                 <img src="/assets/images/GB_logo_bg.png" alt="">
             </div>
-        <div style="position: absolute; left: 10%; width: 80%; margin-top: 150px;">
+        <div style="position: absolute; left: 10%; width: 80%; margin-top: 110px;">
 
             <div class="card_slider owl-carousel owl-theme">
                 <div class="item">
@@ -3923,17 +3940,105 @@
                 <!-- Swiper -->
                 <div style="max-width: 1340px;" class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="/assets/images/yt-slyder1.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/yt-slyder2.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/yt-slyder3.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/yt-slyder4.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/yt-slyder5.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
 
-                        <div class="swiper-slide"><img src="/assets/images/the-coffee-man.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/coffee-heroes.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/a-film-coffee.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/caffeinated.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
-                        <div class="swiper-slide"><img src="/assets/images/barista.jpg" style="width: 245px; margin-right: 10px;" alt=""></div>
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/yt-slyder1.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/yt-slyder2.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/yt-slyder3.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/yt-slyder4.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/yt-slyder5.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/the-coffee-man.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/coffee-heroes.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/a-film-coffee.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/caffeinated.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal" style="overflow: unset; height: unset; padding: 0; background: #c4bfd200; width: 90vh; height: 51vh; max-width: 90vh;">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZrsAh4q1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <!-- Link to open the modal -->
+                            <p><a href="#ex1" rel="modal:open"><img src="/assets/images/barista.jpg" style="width: 245px; margin-right: 10px;" alt=""></a></p>
+                        </div>
+                        
                         
                     </div>
                     <div class="swiper-button-next"></div>

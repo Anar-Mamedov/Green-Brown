@@ -6445,3 +6445,31 @@ a{
     //     object-fit: cover;
     //   }
 }
+
+// kullanıcı giriş yaptıktan sonra kullanıcıya ait dropdown menü
+
+.user_hover{
+    position: absolute;
+    z-index: 2;
+    display: none;
+    padding: 0 20px 20px 0;
+    background-color: #fff;
+}
+.user_name_hover{
+    &:hover{
+        .user_hover {
+            z-index: 2;
+            position: absolute;
+            display: block;
+        }
+    }
+}
+
+
+
+// -----------------------------------------------------------------
+// kartlardakı paylaş butonuna tıkladığında açılan menünün gözükmesi için 
+.card_slider .owl-stage-outer { 
+    height: 450px !important; 
+    padding-top: 50px; 
+}
