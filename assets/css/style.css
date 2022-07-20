@@ -6642,4 +6642,23 @@ a:hover {
   z-index: -1;
 }
 
+.user_hover {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  padding: 0 20px 20px 0;
+  background-color: #fff;
+}
+
+.user_name_hover:hover .user_hover {
+  z-index: 2;
+  position: absolute;
+  display: block;
+}
+
+.card_slider .owl-stage-outer {
+  height: 450px !important;
+  padding-top: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
