@@ -548,7 +548,7 @@
   background-position: center;
   width: 100%;
   height: 496px;
-  background-color: #004D3F;
+  background-color: #004d3f;
   display: flex;
   justify-content: center;
 }
@@ -634,17 +634,17 @@
 .social .fa-pinterest {
   font-size: 25px;
   transition: 0.5s;
-  color: #C8232C;
+  color: #c8232c;
 }
 .social .fa-twitter {
   font-size: 25px;
   transition: 0.5s;
-  color: #00ACEE;
+  color: #00acee;
 }
 .social .fa-youtube {
   font-size: 25px;
   transition: 0.5s;
-  color: #FF0000;
+  color: #ff0000;
 }
 .social .fa-facebook-f:hover {
   color: white;
@@ -657,22 +657,22 @@
   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09433", endColorstr="#bc1888", GradientType=1);
   transform: scale(1.2);
 }
 .social .fa-pinterest:hover {
   color: white;
-  background: #C8232C;
+  background: #c8232c;
   transform: scale(1.2);
 }
 .social .fa-twitter:hover {
   color: white;
-  background: #00ACEE;
+  background: #00acee;
   transform: scale(1.2);
 }
 .social .fa-youtube:hover {
   color: white;
-  background: #FF0000;
+  background: #ff0000;
   transform: scale(1.2);
 }
 
@@ -693,7 +693,7 @@
 .footer_line1 .line-1 {
   display: flex;
   align-content: center;
-  background-color: #00382E;
+  background-color: #00382e;
   width: 100%;
   height: 50px;
 }
@@ -737,7 +737,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   text-align: center;
-  color: #45726E;
+  color: #45726e;
   background: red;
   /* default color */
   /* "to left" / "to right" - affects initial color */
@@ -763,7 +763,7 @@
   float: right !important;
   height: 134px;
   width: 268px;
-  background: #E4451C;
+  background: #e4451c;
   display: inline-block;
   border-bottom-left-radius: 268px;
   border-bottom-right-radius: 268px;
@@ -5235,7 +5235,7 @@ header #nav-icon span:nth-child(3) {
 }
 
 .swatch .available label svg path {
-  fill: #03815F;
+  fill: #03815f;
 }
 
 .swatch .color input:checked + label span:after {
@@ -5382,7 +5382,7 @@ header #nav-icon span:nth-child(3) {
 }
 
 .swatch.error {
-  background-color: #E8D2D2 !important;
+  background-color: #e8d2d2 !important;
   color: #333 !important;
   padding: 1em;
   border-radius: 5px;
@@ -5477,7 +5477,11 @@ header #nav-icon span:nth-child(3) {
   padding: 22px 50px;
 }
 
-.contact-one__form .bootstrap-select > .dropdown-toggle, .contact-one__form textarea, .contact-one__form input[type=text], .contact-one__form input[type=email], .contact-one__form input[type=number] {
+.contact-one__form .bootstrap-select > .dropdown-toggle,
+.contact-one__form textarea,
+.contact-one__form input[type=text],
+.contact-one__form input[type=email],
+.contact-one__form input[type=number] {
   background-color: white;
 }
 
@@ -5539,7 +5543,8 @@ header #nav-icon span:nth-child(3) {
   background-color: #2260ff;
   border-color: #2260ff;
 }
-.checkbox-input:checked + .checkbox-tile .checkbox-icon, .checkbox-input:checked + .checkbox-tile .checkbox-label {
+.checkbox-input:checked + .checkbox-tile .checkbox-icon,
+.checkbox-input:checked + .checkbox-tile .checkbox-label {
   color: #2260ff;
 }
 .checkbox-input:focus + .checkbox-tile {
@@ -5697,7 +5702,8 @@ header #nav-icon span:nth-child(3) {
 .background_product .swiper-button-next {
   color: white;
 }
-.background_product .swiper-horizontal > .swiper-pagination-bullets, .background_product .swiper-pagination-bullets.swiper-pagination-horizontal {
+.background_product .swiper-horizontal > .swiper-pagination-bullets,
+.background_product .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 70px;
 }
 .background_product .swiper-button-next:after {
@@ -5870,7 +5876,7 @@ section[name=about1st] p {
   background-color: #61c5ec;
 }
 .share_button_detail_page .share a:nth-child(2):hover {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 .share_button_detail_page .share a:nth-child(3):hover {
   background-color: #ea4335;
@@ -5951,9 +5957,9 @@ section[name=about1st] p {
 }
 .login_1 button {
   border-radius: 20px;
-  border: 1px solid #FF4B2B;
-  background-color: #FF4B2B;
-  color: #FFFFFF;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
   font-size: 12px;
   font-weight: bold;
   padding: 0 45px;
@@ -5969,10 +5975,10 @@ section[name=about1st] p {
 }
 .login_1 button.ghost {
   background-color: transparent;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 .login_1 form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6048,13 +6054,13 @@ section[name=about1st] p {
   transform: translateX(-100%);
 }
 .login_1 .overlay {
-  background: #FF416C;
-  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
   background: linear-gradient(to right, #0c5e07, #109900);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   top: 0;
   left: -100%;
@@ -6098,7 +6104,7 @@ section[name=about1st] p {
   margin: 20px 0;
 }
 .login_1 .social-container a {
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -6129,7 +6135,7 @@ section[name=about1st] p {
   text-decoration: none;
 }
 .login_1 .form-container button:hover {
-  background-color: #FF4B2B;
+  background-color: #ff4b2b;
 }
 
 .form_for_contact {
@@ -6192,7 +6198,8 @@ section[name=about1st] p {
   font-weight: 300;
   margin: 0;
 }
-.franchising_form html, .franchising_form body {
+.franchising_form html,
+.franchising_form body {
   height: 100vh;
   width: 100vw;
   margin: 0 0;
@@ -6414,7 +6421,8 @@ section[name=about1st] p {
   margin-top: 6px !important;
 }
 
-.form_area_contact input:focus, .form_area_contact textarea:focus {
+.form_area_contact input:focus,
+.form_area_contact textarea:focus {
   background: rgba(255, 0, 0, 0) !important;
   border: none !important;
 }
@@ -6486,7 +6494,7 @@ section[name=about1st] p {
   margin-top: 20px;
   color: #fff;
   border-radius: 10px;
-  background-color: #00382E;
+  background-color: #00382e;
   height: 10px;
   width: 100%;
   display: flex;
@@ -6514,12 +6522,44 @@ section[name=about1st] p {
   padding: 20px;
   border-radius: 9px;
 }
-.edit_account .personal_information input[type=text], .edit_account .personal_information input[type=email], .edit_account .personal_information input[type=url], .edit_account .personal_information input[type=password], .edit_account .personal_information input[type=search], .edit_account .personal_information input[type=number], .edit_account .personal_information input[type=tel], .edit_account .personal_information input[type=range], .edit_account .personal_information input[type=date], .edit_account .personal_information input[type=month], .edit_account .personal_information input[type=week], .edit_account .personal_information input[type=time], .edit_account .personal_information input[type=datetime], .edit_account .personal_information input[type=datetime-local], .edit_account .personal_information input[type=color], .edit_account .personal_information select, .edit_account .personal_information textarea {
+.edit_account .personal_information input[type=text],
+.edit_account .personal_information input[type=email],
+.edit_account .personal_information input[type=url],
+.edit_account .personal_information input[type=password],
+.edit_account .personal_information input[type=search],
+.edit_account .personal_information input[type=number],
+.edit_account .personal_information input[type=tel],
+.edit_account .personal_information input[type=range],
+.edit_account .personal_information input[type=date],
+.edit_account .personal_information input[type=month],
+.edit_account .personal_information input[type=week],
+.edit_account .personal_information input[type=time],
+.edit_account .personal_information input[type=datetime],
+.edit_account .personal_information input[type=datetime-local],
+.edit_account .personal_information input[type=color],
+.edit_account .personal_information select,
+.edit_account .personal_information textarea {
   background: rgb(255, 255, 255) !important;
   border-radius: 10px;
   margin-top: 10px;
 }
-.edit_account .personal_information input[type=text]:focus, .edit_account .personal_information input[type=email]:focus, .edit_account .personal_information input[type=url]:focus, .edit_account .personal_information input[type=password]:focus, .edit_account .personal_information input[type=search]:focus, .edit_account .personal_information input[type=number]:focus, .edit_account .personal_information input[type=tel]:focus, .edit_account .personal_information input[type=range]:focus, .edit_account .personal_information input[type=date]:focus, .edit_account .personal_information input[type=month]:focus, .edit_account .personal_information input[type=week]:focus, .edit_account .personal_information input[type=time]:focus, .edit_account .personal_information input[type=datetime]:focus, .edit_account .personal_information input[type=datetime-local]:focus, .edit_account .personal_information input[type=color]:focus, .edit_account .personal_information select:focus, .edit_account .personal_information textarea:focus {
+.edit_account .personal_information input[type=text]:focus,
+.edit_account .personal_information input[type=email]:focus,
+.edit_account .personal_information input[type=url]:focus,
+.edit_account .personal_information input[type=password]:focus,
+.edit_account .personal_information input[type=search]:focus,
+.edit_account .personal_information input[type=number]:focus,
+.edit_account .personal_information input[type=tel]:focus,
+.edit_account .personal_information input[type=range]:focus,
+.edit_account .personal_information input[type=date]:focus,
+.edit_account .personal_information input[type=month]:focus,
+.edit_account .personal_information input[type=week]:focus,
+.edit_account .personal_information input[type=time]:focus,
+.edit_account .personal_information input[type=datetime]:focus,
+.edit_account .personal_information input[type=datetime-local]:focus,
+.edit_account .personal_information input[type=color]:focus,
+.edit_account .personal_information select:focus,
+.edit_account .personal_information textarea:focus {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border: 0 solid rgba(28, 9, 80, 0);
 }
@@ -6528,17 +6568,50 @@ section[name=about1st] p {
   padding: 20px;
   border-radius: 9px;
 }
-.edit_account .account_password input[type=text], .edit_account .account_password input[type=email], .edit_account .account_password input[type=url], .edit_account .account_password input[type=password], .edit_account .account_password input[type=search], .edit_account .account_password input[type=number], .edit_account .account_password input[type=tel], .edit_account .account_password input[type=range], .edit_account .account_password input[type=date], .edit_account .account_password input[type=month], .edit_account .account_password input[type=week], .edit_account .account_password input[type=time], .edit_account .account_password input[type=datetime], .edit_account .account_password input[type=datetime-local], .edit_account .account_password input[type=color], .edit_account .account_password select, .edit_account .account_password textarea {
+.edit_account .account_password input[type=text],
+.edit_account .account_password input[type=email],
+.edit_account .account_password input[type=url],
+.edit_account .account_password input[type=password],
+.edit_account .account_password input[type=search],
+.edit_account .account_password input[type=number],
+.edit_account .account_password input[type=tel],
+.edit_account .account_password input[type=range],
+.edit_account .account_password input[type=date],
+.edit_account .account_password input[type=month],
+.edit_account .account_password input[type=week],
+.edit_account .account_password input[type=time],
+.edit_account .account_password input[type=datetime],
+.edit_account .account_password input[type=datetime-local],
+.edit_account .account_password input[type=color],
+.edit_account .account_password select,
+.edit_account .account_password textarea {
   background: rgb(255, 255, 255) !important;
   border-radius: 10px;
   margin-top: 10px;
 }
-.edit_account .account_password input[type=text]:focus, .edit_account .account_password input[type=email]:focus, .edit_account .account_password input[type=url]:focus, .edit_account .account_password input[type=password]:focus, .edit_account .account_password input[type=search]:focus, .edit_account .account_password input[type=number]:focus, .edit_account .account_password input[type=tel]:focus, .edit_account .account_password input[type=range]:focus, .edit_account .account_password input[type=date]:focus, .edit_account .account_password input[type=month]:focus, .edit_account .account_password input[type=week]:focus, .edit_account .account_password input[type=time]:focus, .edit_account .account_password input[type=datetime]:focus, .edit_account .account_password input[type=datetime-local]:focus, .edit_account .account_password input[type=color]:focus, .edit_account .account_password select:focus, .edit_account .account_password textarea:focus {
+.edit_account .account_password input[type=text]:focus,
+.edit_account .account_password input[type=email]:focus,
+.edit_account .account_password input[type=url]:focus,
+.edit_account .account_password input[type=password]:focus,
+.edit_account .account_password input[type=search]:focus,
+.edit_account .account_password input[type=number]:focus,
+.edit_account .account_password input[type=tel]:focus,
+.edit_account .account_password input[type=range]:focus,
+.edit_account .account_password input[type=date]:focus,
+.edit_account .account_password input[type=month]:focus,
+.edit_account .account_password input[type=week]:focus,
+.edit_account .account_password input[type=time]:focus,
+.edit_account .account_password input[type=datetime]:focus,
+.edit_account .account_password input[type=datetime-local]:focus,
+.edit_account .account_password input[type=color]:focus,
+.edit_account .account_password select:focus,
+.edit_account .account_password textarea:focus {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border: 0 solid rgba(28, 9, 80, 0);
 }
 
-.orders_table td, .orders_table th {
+.orders_table td,
+.orders_table th {
   font-size: 14px;
 }
 .orders_table button {
@@ -6549,12 +6622,44 @@ section[name=about1st] p {
   background-color: #155243;
 }
 
-.custom_form_style input[type=text], .custom_form_style input[type=email], .custom_form_style input[type=url], .custom_form_style input[type=password], .custom_form_style input[type=search], .custom_form_style input[type=number], .custom_form_style input[type=tel], .custom_form_style input[type=range], .custom_form_style input[type=date], .custom_form_style input[type=month], .custom_form_style input[type=week], .custom_form_style input[type=time], .custom_form_style input[type=datetime], .custom_form_style input[type=datetime-local], .custom_form_style input[type=color], .custom_form_style select, .custom_form_style textarea {
+.custom_form_style input[type=text],
+.custom_form_style input[type=email],
+.custom_form_style input[type=url],
+.custom_form_style input[type=password],
+.custom_form_style input[type=search],
+.custom_form_style input[type=number],
+.custom_form_style input[type=tel],
+.custom_form_style input[type=range],
+.custom_form_style input[type=date],
+.custom_form_style input[type=month],
+.custom_form_style input[type=week],
+.custom_form_style input[type=time],
+.custom_form_style input[type=datetime],
+.custom_form_style input[type=datetime-local],
+.custom_form_style input[type=color],
+.custom_form_style select,
+.custom_form_style textarea {
   background: rgb(255, 255, 255) !important;
   border-radius: 10px;
   margin-top: 10px;
 }
-.custom_form_style input[type=text]:focus, .custom_form_style input[type=email]:focus, .custom_form_style input[type=url]:focus, .custom_form_style input[type=password]:focus, .custom_form_style input[type=search]:focus, .custom_form_style input[type=number]:focus, .custom_form_style input[type=tel]:focus, .custom_form_style input[type=range]:focus, .custom_form_style input[type=date]:focus, .custom_form_style input[type=month]:focus, .custom_form_style input[type=week]:focus, .custom_form_style input[type=time]:focus, .custom_form_style input[type=datetime]:focus, .custom_form_style input[type=datetime-local]:focus, .custom_form_style input[type=color]:focus, .custom_form_style select:focus, .custom_form_style textarea:focus {
+.custom_form_style input[type=text]:focus,
+.custom_form_style input[type=email]:focus,
+.custom_form_style input[type=url]:focus,
+.custom_form_style input[type=password]:focus,
+.custom_form_style input[type=search]:focus,
+.custom_form_style input[type=number]:focus,
+.custom_form_style input[type=tel]:focus,
+.custom_form_style input[type=range]:focus,
+.custom_form_style input[type=date]:focus,
+.custom_form_style input[type=month]:focus,
+.custom_form_style input[type=week]:focus,
+.custom_form_style input[type=time]:focus,
+.custom_form_style input[type=datetime]:focus,
+.custom_form_style input[type=datetime-local]:focus,
+.custom_form_style input[type=color]:focus,
+.custom_form_style select:focus,
+.custom_form_style textarea:focus {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border: 0 solid rgba(28, 9, 80, 0);
 }
@@ -6659,6 +6764,59 @@ a:hover {
 .card_slider .owl-stage-outer {
   height: 450px !important;
   padding-top: 50px;
+}
+
+.carousel_for_form {
+  transform: translate(0px, 36px);
+}
+.carousel_for_form .swiper-pagination {
+  transform: translate(0, 16px);
+}
+.carousel_for_form html,
+.carousel_for_form body {
+  position: relative;
+  height: 100%;
+}
+.carousel_for_form body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.carousel_for_form .swiper {
+  padding: 20px;
+}
+.carousel_for_form .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.carousel_for_form .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel_for_form .swiper-button-next {
+  display: none;
+}
+.carousel_for_form .swiper-button-prev {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
